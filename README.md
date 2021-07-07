@@ -45,4 +45,6 @@ From that directory we run jupyter. We need to pass some special options to make
 jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 ```
 
-Now navigate to [http://localhost:8888/tree](http://localhost:8888/tree) in your browser and open the `QMMM_LAMMPS.ipynb`
+Now navigate to [http://localhost:8888/tree](http://localhost:8888/tree) in your browser. Jupyter will ask you for a token, you can copy the token from one of the urls that appeared in your terminal, i.e. the part after `?token=`.
+
+Now that we have setup jupyter correctly open the `QMMM_LAMMPS.ipynb` notebook.
