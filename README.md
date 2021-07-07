@@ -39,7 +39,13 @@ Navigate to the tutorial
 cd xtp-tutorials/LAMMPS/Thiophene
 ```
 
-From that directory we run jupyter. We need to pass some special options to make it work with the docker container and the host browser
+Load the VOTCA environment variables
+
+```bash
+source VOTCARC.bash
+```
+
+and then we start jupyter. We need to pass some special options to make it work with the docker container and the host browser
 
 ```bash
 jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
