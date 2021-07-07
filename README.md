@@ -13,7 +13,7 @@ Note that this is no longer the recommended way to install Docker, but it is the
 
 ## Getting the Docker image
 ```bash
-docker pull votca/votca
+sudo docker pull votca/votca
 ```
 
 ## Setting up Jupyter
