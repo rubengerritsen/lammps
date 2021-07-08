@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<topology>
+  <molecules>
+    <molecule>
+      <mdname>acetoneAndWater</mdname>
+      <segments>
+        <segment>
+          <name>ACETONE</name>
+          <multipoles_n>MP_FILES/acetone_n.xyz</multipoles_n>
+          <qmcoords_n>MP_FILES/acetone_n.xyz</qmcoords_n>
+          <map2md>0</map2md>
+          <fragments>
+            <fragment>
+              <name>acetone</name>
+              <mdatoms>1:O223:0 1:C222:1 1:C80:3 1:H85:7 1:H85:8 1:H85:9</mdatoms>
+              <qmatoms></qmatoms>
+              <mpoles></mpoles>
+            </fragment>
+            <fragment>
+              <mdatoms>1:C80:2 1:H85:4 1:H85:5 1:H85:6</mdatoms>
+              <qmatoms></qmatoms>
+              <mpoles></mpoles>
+            </fragment>
+          </fragments>
+        </segment>
+        <segment>
+          <name>WATER</name>
+          <multipoles_n>MP_FILES/water_n.xyz</multipoles_n>
+          <map2md>0</map2md>
+          <fragments>
+            <fragment>
+              <name>water</name>
+              <mdatoms>2:O76:10 2:H77:11 2:H77:12</mdatoms>
+              <mpoles></mpoles>
+            </fragment>
+          </fragments>
+        </segment>
+      </segments>
+    </molecule>
+  </molecules>
+</topology>
