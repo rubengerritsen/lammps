@@ -13,9 +13,9 @@
       <region>
         <id>0</id>
         <type>qm</type>
-        <state help="qmstate to calculate i.e. n or s1">n</state>
+        <state help="qmstate to calculate i.e. n or s1">s1</state>
         <segments help="which segments to include in this region and which geometry they have">0:n</segments>
-                <options_dft help="options for dft calculations">
+        <options_dft help="options for dft calculations">
           <package help="Defaults for the Quantum Mechanics packages">
             <name help="QM package to use" default="xtp" choices="xtp,orca">xtp</name>
             <charge help="Molecular charge" default="0" choices="int">0</charge>
@@ -30,6 +30,7 @@
             <polarization>false</polarization>
             <dipole_spacing>0.1</dipole_spacing>
             <xtpdft>
+              <fock_matrix_reset help="how often the fock matrix should be reset" default="5" choices="int+">5</fock_matrix_reset>
               <with_screening help="screening" default="true" choices="bool">true</with_screening>
               <screening_eps help="screening eps" default="1e-9" choices="float+">1e-9</screening_eps>
               <use_external_field help="whether or not to use an external field" default="false" choices="bool">false</use_external_field>
@@ -61,10 +62,10 @@
           <bsemin help="only needed, if ranges is factor or explicit, lowest MO to be used in BSE" default=""/>
           <bsemax help="only needed, if ranges is factor or explicit, highest MO to be used in BSE" default=""/>
           <vxc help="Exchange correlation functional computation for GW">
-    	    <functional help="Functional name(s) according to LIBXC" default="XC_HYB_GGA_XC_PBEH"/>
+            <functional help="Functional name(s) according to LIBXC" default="XC_HYB_GGA_XC_PBEH"/>
             <grid help="grid quality" default="medium" choices="xcoarse,coarse,medium,fine,xfine"/>
-          </vxc>    
-	  <basisset help="Basis set for MOs" default="def2-tzvp">def2-svp</basisset>
+          </vxc>
+          <basisset help="Basis set for MOs" default="def2-tzvp">def2-svp</basisset>
           <auxbasisset help="Auxiliary basis set for RI" default="aux-def2-tzvp">aux-def2-svp</auxbasisset>
           <scissor_shift help="preshift unoccupied MOs by a constant for GW calculation" default="0.0" unit="hartree" choices="float"/>
           <mode help="use single short (G0W0) or self-consistent GW (evGW)" default="evGW" choices="evGW,G0W0"/>
@@ -105,6 +106,10 @@
           <exctotal help="number of eigenvectors to calculate" default="5" choices="int+"/>
           <ignore_corelevels help="" default="none" choices="none,RPA,BSE,GW"/>
         </gwbse>
+        <statetracker help="filter to identify excited states from some characteristic and not the energy">
+          <filters help="list of filters to use" default="oscillatorstrength" choices="[chargetransfer,density,localisation,oscillatorstrength,overlap]">overlap</filters>
+          <overlap>0.8</overlap>
+        </statetracker>
       </region>
       <region>
         <id>1</id>
@@ -115,7 +120,7 @@
           <max_iter help="Maximum number of iterations">512</max_iter>
           <exp_damp help="Thole sharpness parameter">0.39</exp_damp>
         </polar>
-         <cutoff help="cutoff to define segments via distance to some segment in the same region or another region">          
+        <cutoff help="cutoff to define segments via distance to some segment in the same region or another region">
           <relative_to_explicit_segs>true</relative_to_explicit_segs>
           <geometry>n</geometry>
           <radius>0.9</radius>

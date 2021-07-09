@@ -7,13 +7,31 @@
 			<regions>
 				<region>
 					<id>0</id>
-					<state>n</state>
+					<state>s12</state>
 					<segments>0:n</segments>
 				</region>
 			</regions>
 		</input>
-		<status>ASSIGNED</status>
-		<host>pop-os:99597</host>
-		<time>14:50:35</time>
+		<status>COMPLETE</status>
+		<host>pop-os:105312</host>
+		<time>15:28:33</time>
+		<output>
+			<regions>
+				<region Tot_charge="0.000000e+00" id="0" size="1" type="qm">
+					<E_total>-5241.941639</E_total>
+					<Initial_State>s1</Initial_State>
+					<Final_State>s1</Final_State>
+				</region>
+				<region Tot_charge="-1.665335e-16" id="1" size="96" type="polar">
+					<E_static>-26.925919</E_static>
+					<E_polar>-6.118104</E_polar>
+					<E_total>-33.044023</E_total>
+				</region>
+			</regions>
+			<E_tot>-5274.985662</E_tot>
+			<Compute_Time>71</Compute_Time>
+			<Total_Charge>-0.000000</Total_Charge>
+			<Iterations>2</Iterations>
+		</output>
 	</job>
 </jobs>

@@ -7,7 +7,7 @@
         <segment>
           <name>ACETONE</name>
           <qmcoords_n>DFT_ORCA/acetone/acetoneOpt.xyz</qmcoords_n>
-          <multipoles_n>MP_FILES/acetone_n_pol.xyz</multipoles_n>
+          <multipoles_n>MP_FILES/acetone_n_pol.mps</multipoles_n>
           <map2md>0</map2md>
           <fragments>
             <fragment>
@@ -28,7 +28,7 @@
         <segment>
           <name>WATER</name>
           <qmcoords_n>DFT_ORCA/water/waterOpt.xyz</qmcoords_n>
-          <multipoles_n>MP_FILES/water_n_pol.xyz</multipoles_n>
+          <multipoles_n>MP_FILES/water_n_pol.mps</multipoles_n>
           <map2md>0</map2md>
           <fragments>
             <fragment>
