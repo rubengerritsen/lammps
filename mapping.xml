@@ -2,36 +2,42 @@
 <topology>
   <molecules>
     <molecule>
-      <mdname>acetoneAndWater</mdname>
+      <mdname>O1C3H6</mdname>
       <segments>
         <segment>
           <name>ACETONE</name>
-          <multipoles_n>MP_FILES/acetone_n.xyz</multipoles_n>
-          <qmcoords_n>MP_FILES/acetone_n.xyz</qmcoords_n>
+          <qmcoords_n>DFT_ORCA/acetone/acetoneOpt.xyz</qmcoords_n>
+          <multipoles_n>MP_FILES/acetone_n_pol.xyz</multipoles_n>
           <map2md>0</map2md>
           <fragments>
             <fragment>
               <name>acetone</name>
-              <mdatoms>1:O223:0 1:C222:1 1:C80:3 1:H85:7 1:H85:8 1:H85:9</mdatoms>
-              <qmatoms></qmatoms>
-              <mpoles></mpoles>
-            </fragment>
-            <fragment>
-              <mdatoms>1:C80:2 1:H85:4 1:H85:5 1:H85:6</mdatoms>
-              <qmatoms></qmatoms>
-              <mpoles></mpoles>
+              <mdatoms>1:O223:0 1:C222:1 1:C80:2 1:C80:3 1:H85:4 1:H85:5 1:H85:6 1:H85:7 1:H85:8 1:H85:9</mdatoms>
+              <qmatoms>0:O 1:C 2:C 3:C 4:H 5:H 6:H 7:H 8:H 9:H</qmatoms>
+              <mpoles>0:O 1:C 2:C 3:C 4:H 5:H 6:H 7:H 8:H 9:H</mpoles>
+              <weights>16 12 12 12 1 1 1 1 1 1</weights>
+              <localframe>0 1 3</localframe>
             </fragment>
           </fragments>
         </segment>
+      </segments>
+    </molecule>
+    <molecule>
+      <mdname>O1H2</mdname>
+      <segments>
         <segment>
           <name>WATER</name>
-          <multipoles_n>MP_FILES/water_n.xyz</multipoles_n>
+          <qmcoords_n>DFT_ORCA/water/waterOpt.xyz</qmcoords_n>
+          <multipoles_n>MP_FILES/water_n_pol.xyz</multipoles_n>
           <map2md>0</map2md>
           <fragments>
             <fragment>
               <name>water</name>
               <mdatoms>2:O76:10 2:H77:11 2:H77:12</mdatoms>
-              <mpoles></mpoles>
+              <qmatoms>0:O 1:H 2:H</qmatoms>
+              <mpoles>0:O 1:H 2:H</mpoles>
+              <weights>16 1 1</weights>
+              <localframe>0 1 2</localframe>
             </fragment>
           </fragments>
         </segment>

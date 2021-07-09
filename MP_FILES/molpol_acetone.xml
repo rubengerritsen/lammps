@@ -1,0 +1,11 @@
+<options>
+    <molpol help="Tool to scale distributed polarisibilites to DFT polarisibilites" section="sec:overlap">
+        <mpsinput help="Input file .mps format">acetone_n.mps</mpsinput>
+        <mpsoutput help="Output file .mps format">acetone_n_pol.mps</mpsoutput>
+        <options_polar help="Options for the electrostatic interaction">polar.xml</options_polar>
+        <qmpackage  help="DFT package polarisation calculation was run with">orca</qmpackage>
+        <logfile help="logfile of DFTpackage to read Target polarisability from">../DFT_ORCA/acetone/chelpg.log</logfile>
+        <tolerance help="convergence tolerance">1e-4</tolerance>
+        <mode help="Read the polar target from a file or a qmpackage logfile" choices="file,qmpackage">qmpackage</mode>
+    </molpol>
+</options>

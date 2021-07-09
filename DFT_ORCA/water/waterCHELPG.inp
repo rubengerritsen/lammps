@@ -1,0 +1,12 @@
+!PBE0 def2-SVP CHELPG
+
+*xyzfile 0 1 waterOpt.xyz
+
+%pal
+ nprocs 26
+end
+
+%elprop
+Polar 1
+end
+

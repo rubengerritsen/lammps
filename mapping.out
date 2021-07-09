@@ -60,3 +60,6 @@ Unable to associate mass 1e-30 with element assuming pseudo atom, assigning name
 
 WARNING Impropers are not currently supported, skipping.
 
+Read MD topology from system.data: Found 658 atoms in 217 molecules. 
+Reading frame, timestep 798500
+Read MD trajectory from traj1.dump: found 1 frames, starting from frame 0

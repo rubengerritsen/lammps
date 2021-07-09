@@ -1,0 +1,61 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+------------------------ !PROPERTY! -------------------------
+   name:        PAL_Flags
+   comment:     The PAL Flags
+   geom. index: 1
+   prop. index: 1
+        Diskflag:     2
+------------------------ !PROPERTY! -------------------------
+   name:        SCF_Energy
+   comment:     The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -192.7862583720
+------------------------ !PROPERTY! -------------------------
+   name:        SCF_Electric_Properties
+   comment:     The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : acetoneCHELPG.scfp 
+       Do Dipole Moment Calculation      : 1 
+       Do Quadrupole Moment Calculation  : 0 
+       Do Polarizability Calculation     : 1 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        2.8526211576
+        Electronic Contribution:
+                   0          1          2    
+      0       2.982399   2.513287   0.553859
+        Nuclear Contribution:
+                   0          1          2    
+      0      -3.832553  -3.228761  -0.711526
+        Total Dipole moment:
+                   0          1          2    
+      0      -0.850154  -0.715474  -0.157667
+** Polarizabilities part of electric properties **
+        Isotropic polarizability :       34.9485432483
+        The raw cartesian tensor (atomic units):
+                   0          1          2    
+      0      34.351661   5.268711   1.618750
+      1       5.268711  33.144864  -1.492375
+      2       1.618750  -1.492375  37.349105
+        Diagonalised polarizability tensor :
+                   0          1          2    
+      0      27.934863  37.823577  39.087190
+-------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+-------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    10        Geometry Index:    1
+    Coordinates:
+            O      0.035361168517   -1.049873051315    0.037270326259
+            C     -0.880137073329   -1.817926850908   -0.132334454466
+            C     -1.431845768354   -2.659345503841    0.994779587687
+            C     -1.533752367018   -1.990982536016   -1.483495365925
+            H     -0.972898634952   -2.354543790826    1.943382624124
+            H     -2.528124017672   -2.571960779024    1.058448879065
+            H     -1.206003547853   -3.722578519179    0.808714509148
+            H     -0.978201965839   -1.422330296703   -2.239289147688
+            H     -2.573096629489   -1.626197375783   -1.445184100591
+            H     -1.580301164011   -3.054261296405   -1.767292857613

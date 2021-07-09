@@ -1,0 +1,26 @@
+==================================================
+========   VOTCA (http://www.votca.org)   ========
+==================================================
+
+please submit bugs to https://github.com/votca/xtp/issues
+
+xtp_map, version 2022-dev gitid: 60fc73d (compiled Jul  8 2021, 15:50:23)
+votca_csg, version 2022-dev gitid: 60fc73d (compiled Jul  8 2021, 15:45:45)
+votca_tools, version 2022-dev gitid: 60fc73d (compiled Jul  8 2021, 15:45:16)
+
+
+WARNING: The votca lammps data reader is only able to read lammps files formatted in the following styles:
+angle
+atom
+bond
+full
+molecule
+
+These styles use the following formats in the atom block:
+atom-ID molecule-ID atom-type charge x y z
+atom-ID molecule-ID atom-type charge x y z nx ny nz
+atom-ID molecule-ID atom-type x y z
+atom-ID molecule-ID atom-type x y z nx ny nz
+atom-ID atom-type x y z
+atom-ID atom-type x y z nx ny nz
+
