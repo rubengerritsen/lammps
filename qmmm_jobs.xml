@@ -1,0 +1,19 @@
+<jobs>
+	<job>
+		<id>0</id>
+		<tag>ACETONE_0:n</tag>
+		<input>
+			<site_energies>0:n</site_energies>
+			<regions>
+				<region>
+					<id>0</id>
+					<state>n</state>
+					<segments>0:n</segments>
+				</region>
+			</regions>
+		</input>
+		<status>ASSIGNED</status>
+		<host>pop-os:99597</host>
+		<time>14:50:35</time>
+	</job>
+</jobs>
