@@ -4,9 +4,9 @@
 
 please submit bugs to https://github.com/votca/xtp/issues
 
-xtp_map, version 2022-dev gitid: 60fc73d (compiled Jul  8 2021, 15:50:23)
-votca_csg, version 2022-dev gitid: 60fc73d (compiled Jul  8 2021, 15:45:45)
-votca_tools, version 2022-dev gitid: 60fc73d (compiled Jul  8 2021, 15:45:16)
+xtp_map, version 2022-dev gitid: 60fc73d (dirty) (compiled Jul  9 2021, 11:25:47)
+votca_csg, version 2022-dev gitid: 60fc73d (dirty) (compiled Jul  9 2021, 11:25:45)
+votca_tools, version 2022-dev gitid: 60fc73d (dirty) (compiled Jul  9 2021, 11:25:45)
 
 
 WARNING: The votca lammps data reader is only able to read lammps files formatted in the following styles:
@@ -60,6 +60,1541 @@ Unable to associate mass 1e-30 with element assuming pseudo atom, assigning name
 
 WARNING Impropers are not currently supported, skipping.
 
+Element: O
+molname_map 0
+Element: C
+molname_map 0
+Element: C
+molname_map 1
+Element: C
+molname_map 2
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+Element: H
+molname_map 2
+Element: H
+molname_map 3
+Element: H
+molname_map 4
+Element: H
+molname_map 5
+C3H6O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
+Element: O
+molname_map 0
+Element: H
+molname_map 0
+Element: H
+molname_map 1
+H2O1
 Read MD topology from system.data: Found 658 atoms in 217 molecules. 
 Reading frame, timestep 798500
 Read MD trajectory from traj1.dump: found 1 frames, starting from frame 0
+
+xtp_map : state file 'state.hdf5' already in use. Delete the current statefile or specify a different name.

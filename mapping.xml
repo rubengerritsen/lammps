@@ -2,7 +2,7 @@
 <topology>
   <molecules>
     <molecule>
-      <mdname>O1C3H6</mdname>
+      <mdname>C3H6O1</mdname>
       <segments>
         <segment>
           <name>ACETONE</name>
@@ -23,7 +23,7 @@
       </segments>
     </molecule>
     <molecule>
-      <mdname>O1H2</mdname>
+      <mdname>H2O1</mdname>
       <segments>
         <segment>
           <name>WATER</name>
