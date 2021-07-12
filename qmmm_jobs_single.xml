@@ -1,0 +1,17 @@
+<jobs>
+	<job>
+		<id>0</id>
+		<tag>ACETONE_0:n</tag>
+		<input>
+			<site_energies>0:n</site_energies>
+			<regions>
+				<region>
+					<id>0</id>
+					<state>n</state>
+					<segments>0:n</segments>
+				</region>
+			</regions>
+		</input>
+		<status>AVAILABLE</status>
+	</job>
+</jobs>

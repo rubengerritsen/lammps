@@ -4,7 +4,7 @@
     <print_regions_pdb>true</print_regions_pdb>
     <max_iterations>50</max_iterations>
     <openmp_threads>1</openmp_threads>
-    <map_file>mapping.xml</map_file>
+    <map_file>OPTIONS/mapping.xml</map_file>
     <job_file>qmmm_jobs.xml</job_file>
     <write_parse>
       <states>n</states>

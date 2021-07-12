@@ -73,12 +73,37 @@ xtp_run -e mapchecker -o mapchecker.xml -f state.hdf5
 ```
 
 ### Create QMMM jobs
-
+```bash
+xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "write"
+```
 
 ### Delete all unnecessary jobs
+We are only intersted in a QMMM calculation for acetone, which is the first job, we can delete the rest from the `qmmm_jobs.xml` file. What remains
+
+```xml
+<jobs>
+	<job>
+		<id>0</id>
+		<tag>ACETONE_0:n</tag>
+		<input>
+			<site_energies>0:n</site_energies>
+			<regions>
+				<region>
+					<id>0</id>
+					<state>n</state>
+					<segments>0:n</segments>
+				</region>
+			</regions>
+		</input>
+		<status>AVAILABLE</status>
+	</job>
+</jobs>
+```
 
 ### Perform QMMM calc
-
+```bash
+xtp_parallel -e qmmm -o qmmm.xml -f state.hdf5 -j "run"
+```
 
 ## Make a picture
 

@@ -71,6 +71,7 @@ ax.set_xlabel("Energy (eV)")
 ax.legend(handles = [vdot, qdot], loc='upper right', labelspacing=0.15)
 #ax.set_aspect(aspect=1.4)
 fig.show()
+plt.show()
 
 print(tabulate(np.array([ vacEnergy, qmmmEnergy, qmmmEnergy - vacEnergy]).transpose(), 
                headers=["vaccuum", "qmmm", "shift (q-v)"],

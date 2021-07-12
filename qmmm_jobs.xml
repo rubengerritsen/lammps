@@ -1,0 +1,37 @@
+<jobs>
+	<job>
+		<id>0</id>
+		<tag>ACETONE_0:n</tag>
+		<input>
+			<site_energies>0:n</site_energies>
+			<regions>
+				<region>
+					<id>0</id>
+					<state>n</state>
+					<segments>0:n</segments>
+				</region>
+			</regions>
+		</input>
+		<status>COMPLETE</status>
+		<host>pop-os:38502</host>
+		<time>11:08:58</time>
+		<output>
+			<regions>
+				<region Tot_charge="0.000000e+00" id="0" size="1" type="qm">
+					<E_total>-5247.633436</E_total>
+					<Initial_State>s1</Initial_State>
+					<Final_State>s1</Final_State>
+				</region>
+				<region Tot_charge="0.000000e+00" id="1" size="96" type="polar">
+					<E_static>-28.985643</E_static>
+					<E_polar>-9.177635</E_polar>
+					<E_total>-38.163279</E_total>
+				</region>
+			</regions>
+			<E_tot>-5285.796715</E_tot>
+			<Compute_Time>215</Compute_Time>
+			<Total_Charge>0.000000</Total_Charge>
+			<Iterations>2</Iterations>
+		</output>
+	</job>
+</jobs>
