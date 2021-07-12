@@ -8,7 +8,9 @@
     <job_file>qmmm_jobs.xml</job_file>
     <write_parse>
       <states>n s1</states>
+      <segments>0</segments>
     </write_parse>
+    <use_gs_for_ex>true</use_gs_for_ex>
     <regions>
       <region>
         <id>0</id>
