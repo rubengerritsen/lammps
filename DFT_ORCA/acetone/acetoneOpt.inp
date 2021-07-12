@@ -1,4 +1,4 @@
-!PBE0 def2-SVP OPT
+!PBE0 def2-TZVP OPT
 
 *xyz 0 1
 O  0.006  -0.848   0.086

@@ -1,4 +1,4 @@
-!PBE0 def2-SVP CHELPG
+!PBE0 def2-TZVP CHELPG
 
 *xyzfile 0 1 acetoneOpt.xyz
 

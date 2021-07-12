@@ -20,9 +20,9 @@
             <name help="QM package to use" default="xtp" choices="xtp,orca">xtp</name>
             <charge help="Molecular charge" default="0" choices="int">0</charge>
             <spin help="Molecular multiplicity" default="1" choices="int+">1</spin>
-            <basisset help="Basis set for MOs" default="def2-tzvp">def2-svp</basisset>
+            <basisset help="Basis set for MOs" default="def2-tzvp">def2-tzvp</basisset>
             <use_auxbasisset help="use an auxiliar basisset" default="true" choices="bool">true</use_auxbasisset>
-            <auxbasisset help="Auxiliary basis set for RI" default="aux-def2-tzvp">aux-def2-svp</auxbasisset>
+            <auxbasisset help="Auxiliary basis set for RI" default="aux-def2-tzvp">aux-def2-tzvp</auxbasisset>
             <use_ecp help="use an Effective Core Potentials for DFT Calculations" default="false" choices="bool">false</use_ecp>
             <optimize help="Perform a molecular geometry optimization" default="false" choices="bool">false</optimize>
             <functional default="XC_HYB_GGA_XC_PBEH">XC_HYB_GGA_XC_PBEH</functional>
@@ -65,8 +65,8 @@
             <functional help="Functional name(s) according to LIBXC" default="XC_HYB_GGA_XC_PBEH"/>
             <grid help="grid quality" default="medium" choices="xcoarse,coarse,medium,fine,xfine"/>
           </vxc>
-          <basisset help="Basis set for MOs" default="def2-tzvp">def2-svp</basisset>
-          <auxbasisset help="Auxiliary basis set for RI" default="aux-def2-tzvp">aux-def2-svp</auxbasisset>
+          <basisset help="Basis set for MOs" default="def2-tzvp">def2-tzvp</basisset>
+          <auxbasisset help="Auxiliary basis set for RI" default="aux-def2-tzvp">aux-def2-tzvp</auxbasisset>
           <scissor_shift help="preshift unoccupied MOs by a constant for GW calculation" default="0.0" unit="hartree" choices="float"/>
           <mode help="use single short (G0W0) or self-consistent GW (evGW)" default="evGW" choices="evGW,G0W0"/>
           <tasks help="tasks to do" default="gw,singlets" choices="[gw,singlets,triplets,all]"/>
@@ -103,7 +103,7 @@
           <sigma_plot_filename hep="File with the sigma plot data" default="QPenergies_sigma.dat"/>
           <bse_print_weight help="print exciton WF composition weight larger than minimum" default="0.5" choices="float+"/>
           <rebuild_threecenter_freq help="how often the 3c integrals in iterate should be rebuilt" default="5" choices="int+"/>
-          <exctotal help="number of eigenvectors to calculate" default="5" choices="int+"/>
+          <exctotal help="number of eigenvectors to calculate" default="5" choices="int+">12</exctotal>
           <ignore_corelevels help="" default="none" choices="none,RPA,BSE,GW"/>
         </gwbse>
         <statetracker help="filter to identify excited states from some characteristic and not the energy">

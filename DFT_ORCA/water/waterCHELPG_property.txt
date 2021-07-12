@@ -12,7 +12,7 @@
    comment:     The SCF energy
    geom. index: 1
    prop. index: 1
-        SCF Energy:      -76.2763259623
+        SCF Energy:      -76.3773260613
 ------------------------ !PROPERTY! -------------------------
    name:        SCF_Electric_Properties
    comment:     The SCF Calculated Electric Properties
@@ -23,32 +23,32 @@
        Do Quadrupole Moment Calculation  : 0 
        Do Polarizability Calculation     : 1 
 ** Dipole moment part of electric properties **
-        Magnitude of dipole moment (Debye) :        2.0268478332
+        Magnitude of dipole moment (Debye) :        2.0653589925
         Electronic Contribution:
                    0          1          2    
-      0       0.000000   0.000000  -0.197937
+      0       0.000000   0.000000  -0.159402
         Nuclear Contribution:
                    0          1          2    
-      0      -0.000000   0.000000   0.995344
+      0      -0.000000   0.000000   0.971960
         Total Dipole moment:
                    0          1          2    
-      0      -0.000000   0.000000   0.797407
+      0      -0.000000   0.000000   0.812558
 ** Polarizabilities part of electric properties **
-        Isotropic polarizability :        5.1942076058
+        Isotropic polarizability :        6.5651221962
         The raw cartesian tensor (atomic units):
                    0          1          2    
-      0       7.091851  -0.000000  -0.000000
-      1      -0.000000   3.122144  -0.000000
-      2      -0.000000  -0.000000   5.368628
+      0       7.966646   0.000000   0.000000
+      1       0.000000   5.210022  -0.000000
+      2       0.000000  -0.000000   6.518698
         Diagonalised polarizability tensor :
                    0          1          2    
-      0       3.122144   5.368628   7.091851
+      0       5.210022   6.518698   7.966646
 -------------------------------------------------------------
 ----------------------- !GEOMETRIES! ------------------------
 -------------------------------------------------------------
 ------------------------ !GEOMETRY! -------------------------
     Number of atoms:    3        Geometry Index:    1
     Coordinates:
-            O      0.000000000094    0.000000000000   -0.013696834254
-            H      0.754408829263    0.000000000000    0.584207417086
-            H     -0.754408829357    0.000000000000    0.584207417168
+            O      0.000000000010    0.000000000000   -0.004332419461
+            H      0.761461273571    0.000000000000    0.579525209725
+            H     -0.761461273581    0.000000000000    0.579525209736
