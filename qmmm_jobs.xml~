@@ -13,25 +13,58 @@
 			</regions>
 		</input>
 		<status>COMPLETE</status>
-		<host>pop-os:38502</host>
-		<time>11:08:58</time>
+		<host>pop-os:58738</host>
+		<time>13:52:08</time>
+		<output>
+			<regions>
+				<region Tot_charge="-3.200000e+01" id="0" size="1" type="qm">
+					<E_total>-5252.662162</E_total>
+				</region>
+				<region Tot_charge="0.000000e+00" id="1" size="96" type="polar">
+					<E_static>-28.985643</E_static>
+					<E_polar>-9.084961</E_polar>
+					<E_total>-38.070605</E_total>
+				</region>
+			</regions>
+			<E_tot>-5290.732767</E_tot>
+			<Compute_Time>64</Compute_Time>
+			<Total_Charge>-32.000000</Total_Charge>
+			<Iterations>5</Iterations>
+		</output>
+	</job>
+	<job>
+		<id>1</id>
+		<tag>ACETONE_0:s1</tag>
+		<input>
+			<site_energies>0:s1</site_energies>
+			<regions>
+				<region>
+					<id>0</id>
+					<state>s1</state>
+					<segments>0:n</segments>
+				</region>
+			</regions>
+		</input>
+		<status>COMPLETE</status>
+		<host>pop-os:58738</host>
+		<time>13:54:51</time>
 		<output>
 			<regions>
 				<region Tot_charge="0.000000e+00" id="0" size="1" type="qm">
-					<E_total>-5247.633436</E_total>
+					<E_total>-5248.096752</E_total>
 					<Initial_State>s1</Initial_State>
 					<Final_State>s1</Final_State>
 				</region>
 				<region Tot_charge="0.000000e+00" id="1" size="96" type="polar">
 					<E_static>-28.985643</E_static>
-					<E_polar>-9.177635</E_polar>
-					<E_total>-38.163279</E_total>
+					<E_polar>-9.162532</E_polar>
+					<E_total>-38.148175</E_total>
 				</region>
 			</regions>
-			<E_tot>-5285.796715</E_tot>
-			<Compute_Time>215</Compute_Time>
+			<E_tot>-5286.244927</E_tot>
+			<Compute_Time>163</Compute_Time>
 			<Total_Charge>0.000000</Total_Charge>
-			<Iterations>2</Iterations>
+			<Iterations>4</Iterations>
 		</output>
 	</job>
 </jobs>

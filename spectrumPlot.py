@@ -18,7 +18,7 @@ from matplotlib import lines
 from tabulate import tabulate
 plt.close("all")
 
-pathToQMMM = "./QMMM/frame_798500/job_0_ACETONE_0:n/checkpoint_iter_2.hdf5"
+pathToQMMM = "./QMMM/frame_798500/job_0_ACETONE_0:n/votca.orb"
 pathToVaccuum = "./VACCUUM/acetoneOpt.orb"
 
 
@@ -38,7 +38,7 @@ def computeSpectrum(x_eng, energies, oscillator):
         y_spectrum.append(level)
     return( np.array(y_spectrum))
 
-qmmm = Orbitals.fromQMMMCpt(pathToQMMM)
+qmmm = Orbitals.fromOrb(pathToQMMM)
 vac  = Orbitals.fromOrb(pathToVaccuum)
 
 qmmmEnergy = qmmm.getSingletEnergies()
