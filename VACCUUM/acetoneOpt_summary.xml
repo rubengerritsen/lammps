@@ -1,302 +1,292 @@
 <output>
-	<GWBSE DFTEnergy="-5251.880701 " units="eV">
+	<GWBSE DFTEnergy="-5251.879175 " units="eV">
 		<dft HOMO="15" LUMO="16">
 			<level number="0">
-				<dft_energy>-522.262748 </dft_energy>
-				<gw_energy>-539.411388 </gw_energy>
-				<qp_energy>-539.412030 </qp_energy>
+				<dft_energy>-522.252447 </dft_energy>
+				<gw_energy>-539.401691 </gw_energy>
+				<qp_energy>-539.402333 </qp_energy>
 			</level>
 			<level number="1">
-				<dft_energy>-280.638914 </dft_energy>
-				<gw_energy>-294.846221 </gw_energy>
-				<qp_energy>-294.847208 </qp_energy>
+				<dft_energy>-280.642192 </dft_energy>
+				<gw_energy>-294.850509 </gw_energy>
+				<qp_energy>-294.851495 </qp_energy>
 			</level>
 			<level number="2">
-				<dft_energy>-278.283200 </dft_energy>
-				<gw_energy>-292.283803 </gw_energy>
-				<qp_energy>-292.284758 </qp_energy>
+				<dft_energy>-278.292327 </dft_energy>
+				<gw_energy>-292.293705 </gw_energy>
+				<qp_energy>-292.294553 </qp_energy>
 			</level>
 			<level number="3">
-				<dft_energy>-278.281512 </dft_energy>
-				<gw_energy>-292.283305 </gw_energy>
-				<qp_energy>-292.284033 </qp_energy>
+				<dft_energy>-278.282935 </dft_energy>
+				<gw_energy>-292.286471 </gw_energy>
+				<qp_energy>-292.287307 </qp_energy>
 			</level>
 			<level number="4">
-				<dft_energy>-29.246885 </dft_energy>
-				<gw_energy>-31.651712 </gw_energy>
-				<qp_energy>-31.658251 </qp_energy>
+				<dft_energy>-29.245872 </dft_energy>
+				<gw_energy>-31.651044 </gw_energy>
+				<qp_energy>-31.657570 </qp_energy>
 			</level>
 			<level number="5">
-				<dft_energy>-21.698644 </dft_energy>
-				<gw_energy>-24.730298 </gw_energy>
-				<qp_energy>-24.743328 </qp_energy>
+				<dft_energy>-21.700198 </dft_energy>
+				<gw_energy>-24.731089 </gw_energy>
+				<qp_energy>-24.744118 </qp_energy>
 			</level>
 			<level number="6">
-				<dft_energy>-20.029639 </dft_energy>
-				<gw_energy>-23.211454 </gw_energy>
-				<qp_energy>-23.225163 </qp_energy>
+				<dft_energy>-20.030391 </dft_energy>
+				<gw_energy>-23.211403 </gw_energy>
+				<qp_energy>-23.225099 </qp_energy>
 			</level>
 			<level number="7">
-				<dft_energy>-15.032795 </dft_energy>
-				<gw_energy>-17.982640 </gw_energy>
-				<qp_energy>-17.971810 </qp_energy>
+				<dft_energy>-15.033111 </dft_energy>
+				<gw_energy>-17.982447 </gw_energy>
+				<qp_energy>-17.971603 </qp_energy>
 			</level>
 			<level number="8">
-				<dft_energy>-13.083556 </dft_energy>
-				<gw_energy>-15.816828 </gw_energy>
-				<qp_energy>-15.949463 </qp_energy>
+				<dft_energy>-13.084699 </dft_energy>
+				<gw_energy>-15.817530 </gw_energy>
+				<qp_energy>-15.948675 </qp_energy>
 			</level>
 			<level number="9">
-				<dft_energy>-13.040710 </dft_energy>
-				<gw_energy>-15.928830 </gw_energy>
-				<qp_energy>-15.831065 </qp_energy>
+				<dft_energy>-13.040857 </dft_energy>
+				<gw_energy>-15.928994 </gw_energy>
+				<qp_energy>-15.832597 </qp_energy>
 			</level>
 			<level number="10">
-				<dft_energy>-12.815607 </dft_energy>
-				<gw_energy>-15.647440 </gw_energy>
-				<qp_energy>-15.686976 </qp_energy>
+				<dft_energy>-12.816110 </dft_energy>
+				<gw_energy>-15.648276 </gw_energy>
+				<qp_energy>-15.687772 </qp_energy>
 			</level>
 			<level number="11">
-				<dft_energy>-11.389083 </dft_energy>
-				<gw_energy>-14.307739 </gw_energy>
-				<qp_energy>-14.310131 </qp_energy>
+				<dft_energy>-11.388699 </dft_energy>
+				<gw_energy>-14.306174 </gw_energy>
+				<qp_energy>-14.308542 </qp_energy>
 			</level>
 			<level number="12">
-				<dft_energy>-11.226720 </dft_energy>
-				<gw_energy>-13.977746 </gw_energy>
-				<qp_energy>-13.936564 </qp_energy>
+				<dft_energy>-11.226957 </dft_energy>
+				<gw_energy>-13.977526 </gw_energy>
+				<qp_energy>-13.936435 </qp_energy>
 			</level>
 			<level number="13">
-				<dft_energy>-10.736051 </dft_energy>
-				<gw_energy>-13.579406 </gw_energy>
-				<qp_energy>-13.553740 </qp_energy>
+				<dft_energy>-10.736418 </dft_energy>
+				<gw_energy>-13.579395 </gw_energy>
+				<qp_energy>-13.553751 </qp_energy>
 			</level>
 			<level number="14">
-				<dft_energy>-10.002291 </dft_energy>
-				<gw_energy>-12.488000 </gw_energy>
-				<qp_energy>-12.480352 </qp_energy>
+				<dft_energy>-10.001670 </dft_energy>
+				<gw_energy>-12.487418 </gw_energy>
+				<qp_energy>-12.479877 </qp_energy>
 			</level>
 			<level number="15">
-				<dft_energy>-7.215886 </dft_energy>
-				<gw_energy>-9.495768 </gw_energy>
-				<qp_energy>-9.495832 </qp_energy>
+				<dft_energy>-7.215063 </dft_energy>
+				<gw_energy>-9.495105 </gw_energy>
+				<qp_energy>-9.495160 </qp_energy>
 			</level>
 			<level number="16">
-				<dft_energy>-0.313115 </dft_energy>
-				<gw_energy>+2.551062 </gw_energy>
-				<qp_energy>+2.525970 </qp_energy>
+				<dft_energy>-0.312619 </dft_energy>
+				<gw_energy>+2.551204 </gw_energy>
+				<qp_energy>+2.525940 </qp_energy>
 			</level>
 			<level number="17">
-				<dft_energy>+0.988031 </dft_energy>
-				<gw_energy>+2.827182 </gw_energy>
-				<qp_energy>+2.783340 </qp_energy>
+				<dft_energy>+0.989252 </dft_energy>
+				<gw_energy>+2.828673 </gw_energy>
+				<qp_energy>+2.784866 </qp_energy>
 			</level>
 			<level number="18">
-				<dft_energy>+2.454339 </dft_energy>
-				<gw_energy>+4.350152 </gw_energy>
-				<qp_energy>+4.307051 </qp_energy>
+				<dft_energy>+2.449449 </dft_energy>
+				<gw_energy>+4.345699 </gw_energy>
+				<qp_energy>+4.302686 </qp_energy>
 			</level>
 			<level number="19">
-				<dft_energy>+2.871459 </dft_energy>
-				<gw_energy>+5.034876 </gw_energy>
-				<qp_energy>+4.970589 </qp_energy>
+				<dft_energy>+2.852763 </dft_energy>
+				<gw_energy>+5.012571 </gw_energy>
+				<qp_energy>+4.949136 </qp_energy>
 			</level>
 			<level number="20">
-				<dft_energy>+2.946029 </dft_energy>
-				<gw_energy>+5.048928 </gw_energy>
-				<qp_energy>+5.011216 </qp_energy>
+				<dft_energy>+2.948609 </dft_energy>
+				<gw_energy>+5.050615 </gw_energy>
+				<qp_energy>+5.012854 </qp_energy>
 			</level>
 			<level number="21">
-				<dft_energy>+3.633559 </dft_energy>
-				<gw_energy>+5.896596 </gw_energy>
-				<qp_energy>+5.811362 </qp_energy>
+				<dft_energy>+3.636571 </dft_energy>
+				<gw_energy>+5.901757 </gw_energy>
+				<qp_energy>+5.812078 </qp_energy>
 			</level>
 			<level number="22">
-				<dft_energy>+3.745627 </dft_energy>
-				<gw_energy>+5.875669 </gw_energy>
-				<qp_energy>+5.860622 </qp_energy>
+				<dft_energy>+3.746275 </dft_energy>
+				<gw_energy>+5.878421 </gw_energy>
+				<qp_energy>+5.870606 </qp_energy>
 			</level>
 			<level number="23">
-				<dft_energy>+3.842596 </dft_energy>
-				<gw_energy>+6.075259 </gw_energy>
-				<qp_energy>+6.002458 </qp_energy>
+				<dft_energy>+3.835488 </dft_energy>
+				<gw_energy>+6.067893 </gw_energy>
+				<qp_energy>+5.993012 </qp_energy>
 			</level>
 			<level number="24">
-				<dft_energy>+4.648952 </dft_energy>
-				<gw_energy>+6.657100 </gw_energy>
-				<qp_energy>+6.672880 </qp_energy>
+				<dft_energy>+4.653674 </dft_energy>
+				<gw_energy>+6.656437 </gw_energy>
+				<qp_energy>+6.670745 </qp_energy>
 			</level>
 			<level number="25">
-				<dft_energy>+5.162087 </dft_energy>
-				<gw_energy>+7.428410 </gw_energy>
-				<qp_energy>+7.399964 </qp_energy>
+				<dft_energy>+5.138449 </dft_energy>
+				<gw_energy>+7.404071 </gw_energy>
+				<qp_energy>+7.375777 </qp_energy>
 			</level>
 			<level number="26">
-				<dft_energy>+5.747262 </dft_energy>
-				<gw_energy>+7.863379 </gw_energy>
-				<qp_energy>+7.856146 </qp_energy>
+				<dft_energy>+5.758512 </dft_energy>
+				<gw_energy>+7.874571 </gw_energy>
+				<qp_energy>+7.868780 </qp_energy>
 			</level>
 			<level number="27">
-				<dft_energy>+6.117543 </dft_energy>
-				<gw_energy>+8.257932 </gw_energy>
-				<qp_energy>+8.263450 </qp_energy>
+				<dft_energy>+6.083063 </dft_energy>
+				<gw_energy>+8.227217 </gw_energy>
+				<qp_energy>+8.231528 </qp_energy>
 			</level>
 			<level number="28">
-				<dft_energy>+6.249596 </dft_energy>
-				<gw_energy>+8.434715 </gw_energy>
-				<qp_energy>+8.432514 </qp_energy>
+				<dft_energy>+6.182257 </dft_energy>
+				<gw_energy>+8.362956 </gw_energy>
+				<qp_energy>+8.361406 </qp_energy>
 			</level>
 			<level number="29">
-				<dft_energy>+8.045917 </dft_energy>
-				<gw_energy>+10.411795 </gw_energy>
-				<qp_energy>+10.403372 </qp_energy>
+				<dft_energy>+8.040443 </dft_energy>
+				<gw_energy>+10.403659 </gw_energy>
+				<qp_energy>+10.394973 </qp_energy>
 			</level>
 			<level number="30">
-				<dft_energy>+8.305471 </dft_energy>
-				<gw_energy>+10.821686 </gw_energy>
-				<qp_energy>+10.673304 </qp_energy>
+				<dft_energy>+8.292989 </dft_energy>
+				<gw_energy>+10.810214 </gw_energy>
+				<qp_energy>+10.654092 </qp_energy>
 			</level>
 			<level number="31">
-				<dft_energy>+8.501361 </dft_energy>
-				<gw_energy>+10.666428 </gw_energy>
-				<qp_energy>+10.791168 </qp_energy>
+				<dft_energy>+8.485306 </dft_energy>
+				<gw_energy>+10.645293 </gw_energy>
+				<qp_energy>+10.776532 </qp_energy>
 			</level>
 			<level number="32">
-				<dft_energy>+10.247287 </dft_energy>
-				<gw_energy>+12.586351 </gw_energy>
-				<qp_energy>+12.652476 </qp_energy>
+				<dft_energy>+10.232657 </dft_energy>
+				<gw_energy>+12.574125 </gw_energy>
+				<qp_energy>+12.640283 </qp_energy>
 			</level>
 			<level number="33">
-				<dft_energy>+10.328949 </dft_energy>
-				<gw_energy>+12.862855 </gw_energy>
-				<qp_energy>+12.770213 </qp_energy>
+				<dft_energy>+10.349754 </dft_energy>
+				<gw_energy>+12.893932 </gw_energy>
+				<qp_energy>+12.799960 </qp_energy>
 			</level>
 			<level number="34">
-				<dft_energy>+11.207621 </dft_energy>
-				<gw_energy>+13.922389 </gw_energy>
-				<qp_energy>+13.971253 </qp_energy>
+				<dft_energy>+11.224223 </dft_energy>
+				<gw_energy>+13.933658 </gw_energy>
+				<qp_energy>+13.983259 </qp_energy>
 			</level>
 			<level number="35">
-				<dft_energy>+11.404752 </dft_energy>
-				<gw_energy>+14.107274 </gw_energy>
-				<qp_energy>+14.094614 </qp_energy>
+				<dft_energy>+11.416410 </dft_energy>
+				<gw_energy>+14.118099 </gw_energy>
+				<qp_energy>+14.103916 </qp_energy>
 			</level>
 			<level number="36">
-				<dft_energy>+11.944935 </dft_energy>
-				<gw_energy>+14.373966 </gw_energy>
-				<qp_energy>+14.432753 </qp_energy>
+				<dft_energy>+11.945161 </dft_energy>
+				<gw_energy>+14.368319 </gw_energy>
+				<qp_energy>+14.429193 </qp_energy>
 			</level>
 			<level number="37">
-				<dft_energy>+12.063173 </dft_energy>
-				<gw_energy>+14.528829 </gw_energy>
-				<qp_energy>+14.641547 </qp_energy>
+				<dft_energy>+12.064273 </dft_energy>
+				<gw_energy>+14.527950 </gw_energy>
+				<qp_energy>+14.641686 </qp_energy>
 			</level>
 			<level number="38">
-				<dft_energy>+12.343072 </dft_energy>
-				<gw_energy>+14.948053 </gw_energy>
-				<qp_energy>+14.966923 </qp_energy>
+				<dft_energy>+12.338014 </dft_energy>
+				<gw_energy>+14.943637 </gw_energy>
+				<qp_energy>+14.963289 </qp_energy>
 			</level>
 			<level number="39">
-				<dft_energy>+12.636139 </dft_energy>
-				<gw_energy>+15.301093 </gw_energy>
-				<qp_energy>+15.363292 </qp_energy>
+				<dft_energy>+12.626152 </dft_energy>
+				<gw_energy>+15.299363 </gw_energy>
+				<qp_energy>+15.353606 </qp_energy>
 			</level>
 			<level number="40">
-				<dft_energy>+12.681727 </dft_energy>
-				<gw_energy>+15.540965 </gw_energy>
-				<qp_energy>+15.596045 </qp_energy>
+				<dft_energy>+12.670889 </dft_energy>
+				<gw_energy>+15.524490 </gw_energy>
+				<qp_energy>+15.585839 </qp_energy>
 			</level>
 			<level number="41">
-				<dft_energy>+13.501797 </dft_energy>
-				<gw_energy>+16.427753 </gw_energy>
-				<qp_energy>+16.486876 </qp_energy>
+				<dft_energy>+13.491115 </dft_energy>
+				<gw_energy>+16.415548 </gw_energy>
+				<qp_energy>+16.475101 </qp_energy>
 			</level>
 			<level number="42">
-				<dft_energy>+15.362863 </dft_energy>
-				<gw_energy>+18.107656 </gw_energy>
-				<qp_energy>+18.114348 </qp_energy>
+				<dft_energy>+15.353169 </dft_energy>
+				<gw_energy>+18.098672 </gw_energy>
+				<qp_energy>+18.106354 </qp_energy>
 			</level>
 			<level number="43">
-				<dft_energy>+15.597302 </dft_energy>
-				<gw_energy>+18.626800 </gw_energy>
-				<qp_energy>+18.563865 </qp_energy>
+				<dft_energy>+15.581825 </dft_energy>
+				<gw_energy>+18.598242 </gw_energy>
+				<qp_energy>+18.540523 </qp_energy>
 			</level>
 			<level number="44">
-				<dft_energy>+16.025677 </dft_energy>
-				<gw_energy>+19.083231 </gw_energy>
-				<qp_energy>+19.197720 </qp_energy>
+				<dft_energy>+16.001984 </dft_energy>
+				<gw_energy>+19.076813 </gw_energy>
+				<qp_energy>+19.184745 </qp_energy>
 			</level>
 			<level number="45">
-				<dft_energy>+16.777890 </dft_energy>
-				<gw_energy>+19.577065 </gw_energy>
-				<qp_energy>+19.602037 </qp_energy>
+				<dft_energy>+16.786500 </dft_energy>
+				<gw_energy>+19.586937 </gw_energy>
+				<qp_energy>+19.612071 </qp_energy>
 			</level>
 			<level number="46">
-				<dft_energy>+18.077846 </dft_energy>
-				<gw_energy>+21.352549 </gw_energy>
-				<qp_energy>+21.356755 </qp_energy>
+				<dft_energy>+18.094006 </dft_energy>
+				<gw_energy>+21.367368 </gw_energy>
+				<qp_energy>+21.371681 </qp_energy>
 			</level>
 		</dft>
 		<singlets>
 			<level number="1">
-				<omega>+4.247320 </omega>
+				<omega>+4.246374 </omega>
 				<f>+0.000000 </f>
-				<Trdipole gauge="length" unit="e*bohr">-0.0003 -0.0002 +0.0004</Trdipole>
+				<Trdipole gauge="length" unit="e*bohr">+0.0004 -0.0002 -0.0004</Trdipole>
 			</level>
 			<level number="2">
-				<omega>+7.295345 </omega>
-				<f>+0.024670 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.0233 -0.1058 +0.3554</Trdipole>
+				<omega>+7.290410 </omega>
+				<f>+0.024616 </f>
+				<Trdipole gauge="length" unit="e*bohr">+0.0277 -0.1041 +0.3553</Trdipole>
 			</level>
 			<level number="3">
-				<omega>+8.961945 </omega>
-				<f>+0.023998 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.2499 +0.2112 +0.0474</Trdipole>
+				<omega>+8.957337 </omega>
+				<f>+0.023773 </f>
+				<Trdipole gauge="length" unit="e*bohr">+0.2472 +0.2124 +0.0463</Trdipole>
 			</level>
 			<level number="4">
-				<omega>+9.159934 </omega>
-				<f>+0.020367 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.0164 +0.0491 -0.2968</Trdipole>
+				<omega>+9.147985 </omega>
+				<f>+0.022325 </f>
+				<Trdipole gauge="length" unit="e*bohr">-0.0248 -0.0617 +0.3085</Trdipole>
 			</level>
 			<level number="5">
-				<omega>+9.266864 </omega>
-				<f>+0.000410 </f>
-				<Trdipole gauge="length" unit="e*bohr">-0.0064 -0.0003 +0.0420</Trdipole>
+				<omega>+9.265458 </omega>
+				<f>+0.000398 </f>
+				<Trdipole gauge="length" unit="e*bohr">-0.0081 -0.0007 +0.0411</Trdipole>
 			</level>
 			<level number="6">
-				<omega>+9.447506 </omega>
-				<f>+0.005036 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.1103 +0.0969 +0.0144</Trdipole>
+				<omega>+9.442114 </omega>
+				<f>+0.007682 </f>
+				<Trdipole gauge="length" unit="e*bohr">+0.1377 +0.1163 +0.0268</Trdipole>
 			</level>
 			<level number="7">
-				<omega>+9.490010 </omega>
-				<f>+0.001091 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.0520 +0.0439 +0.0077</Trdipole>
+				<omega>+9.489918 </omega>
+				<f>+0.000927 </f>
+				<Trdipole gauge="length" unit="e*bohr">-0.0485 -0.0386 -0.0118</Trdipole>
 			</level>
 			<level number="8">
-				<omega>+9.793195 </omega>
-				<f>+0.158587 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.6106 +0.5252 +0.1106</Trdipole>
+				<omega>+9.792034 </omega>
+				<f>+0.154568 </f>
+				<Trdipole gauge="length" unit="e*bohr">+0.6061 +0.5055 +0.1464</Trdipole>
 			</level>
 			<level number="9">
-				<omega>+9.994446 </omega>
-				<f>+0.124360 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.0676 -0.2124 +0.6769</Trdipole>
+				<omega>+9.987527 </omega>
+				<f>+0.127563 </f>
+				<Trdipole gauge="length" unit="e*bohr">+0.0586 -0.2111 +0.6880</Trdipole>
 			</level>
 			<level number="10">
-				<omega>+10.184821 </omega>
-				<f>+0.047476 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.2825 -0.3210 -0.0859</Trdipole>
-			</level>
-			<level number="11">
-				<omega>+10.252032 </omega>
-				<f>+0.177244 </f>
-				<Trdipole gauge="length" unit="e*bohr">+0.6254 +0.5461 +0.1279</Trdipole>
-			</level>
-			<level number="12">
-				<omega>+10.304347 </omega>
-				<f>+0.010517 </f>
-				<Trdipole gauge="length" unit="e*bohr">-0.1722 +0.0695 +0.0848</Trdipole>
+				<omega>+10.181178 </omega>
+				<f>+0.047457 </f>
+				<Trdipole gauge="length" unit="e*bohr">+0.2894 -0.3156 -0.0829</Trdipole>
 			</level>
 		</singlets>
 	</GWBSE>
