@@ -2,7 +2,7 @@
 <options>
   <qmmm help="Executes qmmm calculations for individual molecules and clusters" section="sec:qmmm">
     <print_regions_pdb>true</print_regions_pdb>
-    <max_iterations>50</max_iterations>
+    <max_iterations>5</max_iterations>
     <map_file>OPTIONS/mapping.xml</map_file>
     <job_file>qmmm_jobs.xml</job_file>
     <io_states default="n e h" help="states to write jobs for and which to parse from jobfile">n s1</io_states>
