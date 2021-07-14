@@ -30,8 +30,8 @@
             <optimize help="Perform a molecular geometry optimization" default="false" choices="bool">false</optimize>
             <functional default="XC_HYB_GGA_XC_PBEH">XC_HYB_GGA_XC_PBEH</functional>
             <scratch help="path to the scratch folder" default="/tmp/qmpackage">/tmp/qmpackage</scratch>
-            <polarization>true</polarization>
             <dipole_spacing>0.1</dipole_spacing>
+            <polarization>true</polarization>
             <write_charges>true</write_charges>
           </package>
         </options_dft>

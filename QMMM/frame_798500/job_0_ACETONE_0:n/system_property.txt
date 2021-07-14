@@ -23,7 +23,7 @@
        Do Quadrupole Moment Calculation  : 0 
        Do Polarizability Calculation     : 0 
 ** Dipole moment part of electric properties **
-        Magnitude of dipole moment (Debye) :        4.5683418606
+        Magnitude of dipole moment (Debye) :        4.5683418607
         Electronic Contribution:
                    0          1          2    
       0      -0.842644   1.371132   2.839897

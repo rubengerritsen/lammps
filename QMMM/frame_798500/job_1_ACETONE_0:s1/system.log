@@ -299,7 +299,7 @@ Trying to determine its content:
 
  * One electron integrals 
  Pre-screening matrix                    ... done
- Shell pair data                         ... done (   0.001 sec)
+ Shell pair data                         ... done (   0.000 sec)
 
 ENUC WAS=  0.000000000
 
@@ -325,7 +325,7 @@ The nuclear repulsion file was updated
 Doing the point charge correction  ... done
 Storing the one-electron matrix    ... done
 
-ENUC IS = 120.038520941
+ENUC IS = 120.038520963
 
 
            ************************************************************
@@ -365,7 +365,7 @@ General Settings:
  Multiplicity           Mult            ....    1
  Number of Electrons    NEL             ....   32
  Basis Dimension        Dim             ....  160
- Nuclear Repulsion      ENuc            ....    120.0385209411 Eh
+ Nuclear Repulsion      ENuc            ....    120.0385209630 Eh
 
 Convergence Acceleration:
  DIIS                   CNVDIIS         .... on
@@ -409,11 +409,11 @@ Convergence Tolerance:
 
 Diagonalization of the overlap matrix:
 Smallest eigenvalue                        ... 3.783e-04
-Time for diagonalization                   ...    0.004 sec
+Time for diagonalization                   ...    0.003 sec
 Threshold for overlap eigenvalues          ... 1.000e-08
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.003 sec
-Total time needed                          ...    0.007 sec
+Time for construction of square roots      ...    0.002 sec
+Total time needed                          ...    0.006 sec
 
 ---------------------
 INITIAL GUESS: MOREAD
@@ -457,7 +457,7 @@ Average number of large basis fcns per batch ...   110.16 (83.52%)
 Maximum spatial batch extension              ...  23.07, 15.92, 14.44 au
 Average spatial batch extension              ...   0.88,  0.74,  0.67 au
 
-Time for grid setup =    0.043 sec
+Time for grid setup =    0.028 sec
 
 --------------
 SCF ITERATIONS
@@ -468,10 +468,10 @@ ITER       Energy         Delta-E        Max-DP      RMS-DP      [F,P]     Damp
                       *** Re-Reading the Fockian *** 
                       *** Removing any level shift *** 
 ITER      Energy       Delta-E        Grad      Rot      Max-DP    RMS-DP
-  0   -193.02798298 -193.0279829804  0.000009  0.000009  0.000029  0.000001
+  0   -193.02798298 -193.0279829810  0.000009  0.000009  0.000029  0.000001
                *** Restarting incremental Fock matrix formation ***
   1   -193.02798298  -0.0000000007  0.000003  0.000006  0.000007  0.000000
-  2   -193.02798298   0.0000000000  0.000007  0.000007  0.000008  0.000000
+  2   -193.02798298   0.0000000001  0.000007  0.000007  0.000008  0.000000
                   ***Gradient check signals convergence***
               ***Rediagonalizing the Fockian in SOSCF/NRSCF***
 
@@ -495,8 +495,8 @@ Grids for H and He will be reduced by one unit
 # of grid points (after weights+screening)   ...  42619 (   0.0 sec)
 nearest neighbour list constructed           ...    0.0 sec
 Grid point re-assignment to atoms done       ...    0.0 sec
-Grid point division into batches done        ...    0.2 sec
-Reduced shell lists constructed in    0.3 sec
+Grid point division into batches done        ...    0.1 sec
+Reduced shell lists constructed in    0.2 sec
 
 Total number of grid points                  ...    42619
 Total number of batches                      ...      671
@@ -509,8 +509,8 @@ Average number of large basis fcns per batch ...   100.04 (82.05%)
 Maximum spatial batch extension              ...  16.69, 14.35, 13.58 au
 Average spatial batch extension              ...   0.52,  0.47,  0.45 au
 
-Final grid set up in    0.3 sec
-Final integration                            ... done (   0.2 sec)
+Final grid set up in    0.2 sec
+Final integration                            ... done (   0.1 sec)
 Change in XC energy                          ...     0.000416010
 Integrated number of electrons               ...    32.000015920
 Previous integrated no of electrons          ...    32.002023714
@@ -522,10 +522,10 @@ TOTAL SCF ENERGY
 Total Energy       :         -193.02756697 Eh           -5252.54713 eV
 
 Components:
-Nuclear Repulsion  :          120.03852094 Eh            3266.41422 eV
-Electronic Energy  :         -313.06608791 Eh           -8518.96135 eV
-One Electron Energy:         -498.72027236 Eh          -13570.86854 eV
-Two Electron Energy:          185.65418444 Eh            5051.90719 eV
+Nuclear Repulsion  :          120.03852096 Eh            3266.41422 eV
+Electronic Energy  :         -313.06608794 Eh           -8518.96135 eV
+One Electron Energy:         -498.72027238 Eh          -13570.86854 eV
+Two Electron Energy:          185.65418445 Eh            5051.90719 eV
 
 Virial components:
 Potential Energy   :         -385.15293467 Eh          -10480.54417 eV
@@ -537,20 +537,20 @@ DFT components:
 N(Alpha)           :       16.000007959997 electrons
 N(Beta)            :       16.000007959997 electrons
 N(Total)           :       32.000015919994 electrons
-E(X)               :      -19.372106955960 Eh       
+E(X)               :      -19.372106956163 Eh       
 E(C)               :       -1.042892274080 Eh       
-E(XC)              :      -20.414999230039 Eh       
+E(XC)              :      -20.414999230243 Eh       
 DFET-embed. en.    :        0.000000000000 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -3.6067e-10  Tolerance :   1.0000e-08
-  Last MAX-Density change    ...    8.6078e-07  Tolerance :   1.0000e-07
-  Last RMS-Density change    ...    2.6081e-08  Tolerance :   5.0000e-09
-  Last Orbital Gradient      ...    2.6715e-07  Tolerance :   1.0000e-05
-  Last Orbital Rotation      ...    4.9434e-07  Tolerance :   1.0000e-05
+  Last Energy change         ...   -3.5394e-10  Tolerance :   1.0000e-08
+  Last MAX-Density change    ...    8.6209e-07  Tolerance :   1.0000e-07
+  Last RMS-Density change    ...    2.6110e-08  Tolerance :   5.0000e-09
+  Last Orbital Gradient      ...    2.6707e-07  Tolerance :   1.0000e-05
+  Last Orbital Rotation      ...    4.9416e-07  Tolerance :   1.0000e-05
 
              **** THE GBW FILE WAS UPDATED (system.gbw) ****
              **** DENSITY FILE WAS UPDATED (system.scfp) ****
@@ -958,16 +958,16 @@ LOEWDIN REDUCED ORBITAL CHARGES
   FA   - Mayer's free valence
 
   ATOM       NA         ZA         QA         VA         BVA        FA
-  0 O      8.4132     8.0000    -0.4132     2.0336     2.0336     0.0000
-  1 C      5.8060     6.0000     0.1940     4.1275     4.1275    -0.0000
+  0 O      8.4132     8.0000    -0.4132     2.0336     2.0336    -0.0000
+  1 C      5.8060     6.0000     0.1940     4.1275     4.1275     0.0000
   2 C      6.3534     6.0000    -0.3534     3.7674     3.7674    -0.0000
   3 C      6.3560     6.0000    -0.3560     3.7701     3.7701    -0.0000
-  4 H      0.8594     1.0000     0.1406     0.9882     0.9882     0.0000
-  5 H      0.8212     1.0000     0.1788     0.9647     0.9647     0.0000
+  4 H      0.8594     1.0000     0.1406     0.9882     0.9882    -0.0000
+  5 H      0.8212     1.0000     0.1788     0.9647     0.9647    -0.0000
   6 H      0.8638     1.0000     0.1362     0.9737     0.9737    -0.0000
   7 H      0.8517     1.0000     0.1483     0.9794     0.9794     0.0000
   8 H      0.8458     1.0000     0.1542     0.9804     0.9804     0.0000
-  9 H      0.8296     1.0000     0.1704     0.9614     0.9614    -0.0000
+  9 H      0.8296     1.0000     0.1704     0.9614     0.9614     0.0000
 
   Mayer bond orders larger than 0.100000
 B(  0-O ,  1-C ) :   2.0047 B(  1-C ,  2-C ) :   1.0047 B(  1-C ,  3-C ) :   1.0278 
@@ -979,29 +979,29 @@ B(  3-C ,  7-H ) :   0.9464 B(  3-C ,  8-H ) :   0.9351 B(  3-C ,  9-H ) :   0.9
 TIMINGS
 -------
 
-Total SCF time: 0 days 0 hours 0 min 5 sec 
+Total SCF time: 0 days 0 hours 0 min 2 sec 
 
-Total time                  ....       5.443 sec
-Sum of individual times     ....       5.194 sec  ( 95.4%)
+Total time                  ....       2.992 sec
+Sum of individual times     ....       2.829 sec  ( 94.6%)
 
-Fock matrix formation       ....       4.784 sec  ( 87.9%)
-  XC integration            ....       0.306 sec  (  6.4% of F)
-    Basis function eval.    ....       0.058 sec  ( 18.9% of XC)
-    Density eval.           ....       0.054 sec  ( 17.7% of XC)
-    XC-Functional eval.     ....       0.012 sec  (  3.9% of XC)
-    XC-Potential eval.      ....       0.105 sec  ( 34.3% of XC)
-Diagonalization             ....       0.004 sec  (  0.1%)
-Density matrix formation    ....       0.003 sec  (  0.1%)
-Population analysis         ....       0.005 sec  (  0.1%)
-Initial guess               ....       0.010 sec  (  0.2%)
+Fock matrix formation       ....       2.568 sec  ( 85.8%)
+  XC integration            ....       0.227 sec  (  8.8% of F)
+    Basis function eval.    ....       0.040 sec  ( 17.5% of XC)
+    Density eval.           ....       0.036 sec  ( 15.8% of XC)
+    XC-Functional eval.     ....       0.008 sec  (  3.5% of XC)
+    XC-Potential eval.      ....       0.067 sec  ( 29.6% of XC)
+Diagonalization             ....       0.003 sec  (  0.1%)
+Density matrix formation    ....       0.002 sec  (  0.1%)
+Population analysis         ....       0.003 sec  (  0.1%)
+Initial guess               ....       0.006 sec  (  0.2%)
 Orbital Transformation      ....       0.000 sec  (  0.0%)
-Orbital Orthonormalization  ....       0.004 sec  (  0.1%)
+Orbital Orthonormalization  ....       0.003 sec  (  0.1%)
 DIIS solution               ....       0.001 sec  (  0.0%)
-SOSCF solution              ....       0.010 sec  (  0.2%)
-Grid generation             ....       0.377 sec  (  6.9%)
+SOSCF solution              ....       0.006 sec  (  0.2%)
+Grid generation             ....       0.240 sec  (  8.0%)
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY      -193.027566971670
+FINAL SINGLE POINT ENERGY      -193.027566972307
 -------------------------   --------------------
 
 
@@ -1055,8 +1055,8 @@ x,y,z [Debye]:     0.105890    -4.377949     0.065660
 
 Timings for individual modules:
 
-Sum of individual times         ...        8.978 sec (=   0.150 min)
-GTO integral calculation        ...        3.367 sec (=   0.056 min)  37.5 %
-SCF iterations                  ...        5.611 sec (=   0.094 min)  62.5 %
+Sum of individual times         ...        6.888 sec (=   0.115 min)
+GTO integral calculation        ...        3.506 sec (=   0.058 min)  50.9 %
+SCF iterations                  ...        3.382 sec (=   0.056 min)  49.1 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 9 seconds 637 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 7 seconds 913 msec

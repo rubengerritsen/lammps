@@ -13,8 +13,8 @@
 			</regions>
 		</input>
 		<status>COMPLETE</status>
-		<host>pop-os:58738</host>
-		<time>13:52:08</time>
+		<host>pop-os:71142</host>
+		<time>11:24:26</time>
 		<output>
 			<regions>
 				<region Tot_charge="-3.200000e+01" id="0" size="1" type="qm">
@@ -27,7 +27,7 @@
 				</region>
 			</regions>
 			<E_tot>-5290.732767</E_tot>
-			<Compute_Time>64</Compute_Time>
+			<Compute_Time>43</Compute_Time>
 			<Total_Charge>-32.000000</Total_Charge>
 			<Iterations>5</Iterations>
 		</output>
@@ -46,8 +46,8 @@
 			</regions>
 		</input>
 		<status>COMPLETE</status>
-		<host>pop-os:58738</host>
-		<time>13:54:51</time>
+		<host>pop-os:71142</host>
+		<time>11:26:17</time>
 		<output>
 			<regions>
 				<region Tot_charge="0.000000e+00" id="0" size="1" type="qm">
@@ -62,7 +62,7 @@
 				</region>
 			</regions>
 			<E_tot>-5286.244927</E_tot>
-			<Compute_Time>163</Compute_Time>
+			<Compute_Time>110</Compute_Time>
 			<Total_Charge>0.000000</Total_Charge>
 			<Iterations>4</Iterations>
 		</output>
