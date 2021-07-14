@@ -5,14 +5,32 @@
 		<input>
 			<site_energies>0:n</site_energies>
 			<regions>
-				<region>
+				<qmregion>
 					<id>0</id>
 					<state>n</state>
 					<segments>0:n</segments>
-				</region>
+				</qmregion>
 			</regions>
 		</input>
-		<status>AVAILABLE</status>
+		<status>COMPLETE</status>
+		<host>pop-os:72466</host>
+		<time>11:27:19</time>
+		<output>
+			<regions>
+				<region Tot_charge="-3.200000e+01" id="0" size="1" type="qmregion">
+					<E_total>-5252.485887</E_total>
+				</region>
+				<region Tot_charge="0.000000e+00" id="1" size="96" type="polarregion">
+					<E_static>-28.985643</E_static>
+					<E_polar>-9.096233</E_polar>
+					<E_total>-38.081876</E_total>
+				</region>
+			</regions>
+			<E_tot>-5290.567763</E_tot>
+			<Compute_Time>25</Compute_Time>
+			<Total_Charge>-32.000000</Total_Charge>
+			<Iterations>3</Iterations>
+		</output>
 	</job>
 	<job>
 		<id>1</id>
@@ -20,13 +38,33 @@
 		<input>
 			<site_energies>0:s1</site_energies>
 			<regions>
-				<region>
+				<qmregion>
 					<id>0</id>
 					<state>s1</state>
-					<segments>0:n</segments>
-				</region>
+					<segments>0:s1</segments>
+				</qmregion>
 			</regions>
 		</input>
-		<status>AVAILABLE</status>
+		<status>COMPLETE</status>
+		<host>pop-os:72466</host>
+		<time>11:27:56</time>
+		<output>
+			<regions>
+				<region Tot_charge="0.000000e+00" id="0" size="1" type="qmregion">
+					<E_total>-5248.147979</E_total>
+					<Initial_State>s1</Initial_State>
+					<Final_State>s1</Final_State>
+				</region>
+				<region Tot_charge="0.000000e+00" id="1" size="96" type="polarregion">
+					<E_static>-28.985643</E_static>
+					<E_polar>-9.164372</E_polar>
+					<E_total>-38.150015</E_total>
+				</region>
+			</regions>
+			<E_tot>-5286.297995</E_tot>
+			<Compute_Time>37</Compute_Time>
+			<Total_Charge>0.000000</Total_Charge>
+			<Iterations>2</Iterations>
+		</output>
 	</job>
 </jobs>

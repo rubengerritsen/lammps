@@ -1,11 +1,10 @@
 <options>
-    <molpol help="Tool to scale distributed polarisibilites to DFT polarisibilites" section="sec:overlap">
-        <mpsinput help="Input file .mps format">water_n.mps</mpsinput>
-        <mpsoutput help="Output file .mps format">water_n_pol.mps</mpsoutput>
-        <options_polar help="Options for the electrostatic interaction">polar.xml</options_polar>
-        <qmpackage  help="DFT package polarisation calculation was run with">orca</qmpackage>
-        <logfile help="logfile of DFTpackage to read Target polarisability from">../DFT_ORCA/water/chelpg.log</logfile>
-        <tolerance help="convergence tolerance">1e-4</tolerance>
-        <mode help="Read the polar target from a file or a qmpackage logfile" choices="file,qmpackage">qmpackage</mode>
-    </molpol>
+	<molpol help="Tool to scale distributed polarisibilites to DFT polarisibilites" section="sec:overlap">
+		<input default="OPTIONAL" help="mps to read from, otherwise use job_name">water_n.mps</input>
+		<output default="OPTIONAL" help="File to write mps and polarisation to">water_n_pol.mps</output>
+		<mode choices="file,qmpackage" default="qmpackage" help="Read the polar target from a file or a qmpackage logfile">qmpackage</mode>
+		<qmpackage choices="orca" default="orca" help="qmpackage name if mode is qmpackage">orca</qmpackage>
+		<logfile default="system.log" help="logfile of qmpackage to read Target polarisability from if mode is qmpackage">../DFT_ORCA/water/chelpg.log</logfile>
+	</molpol>
 </options>
+
