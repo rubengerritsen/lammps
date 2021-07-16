@@ -1,10 +1,10 @@
 <options>
 	<molpol help="Tool to scale distributed polarisibilites to DFT polarisibilites" section="sec:overlap">
-		<input default="OPTIONAL" help="mps to read from, otherwise use job_name">acetone_n.mps</input>
-		<output default="OPTIONAL" help="File to write mps and polarisation to">acetone_n_pol.mps</output>
+		<input default="OPTIONAL" help="mps to read from, otherwise use job_name">MP_FILES/acetone_n.mps</input>
+		<output default="OPTIONAL" help="File to write mps and polarisation to">MP_FILES/acetone_n_pol.mps</output>
 		<mode choices="file,qmpackage" default="qmpackage" help="Read the polar target from a file or a qmpackage logfile">qmpackage</mode>
 		<qmpackage choices="orca" default="orca" help="qmpackage name if mode is qmpackage">orca</qmpackage>
-		<logfile default="system.log" help="logfile of qmpackage to read Target polarisability from if mode is qmpackage">../DFT_ORCA/acetone/chelpg.log</logfile>
+		<logfile default="system.log" help="logfile of qmpackage to read Target polarisability from if mode is qmpackage">DFT_ORCA/acetone/chelpg.log</logfile>
 	</molpol>
 </options>
 

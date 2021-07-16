@@ -12,25 +12,9 @@
 				</qmregion>
 			</regions>
 		</input>
-		<status>COMPLETE</status>
-		<host>pop-os:91903</host>
-		<time>12:46:31</time>
-		<output>
-			<regions>
-				<region Tot_charge="-3.200000e+01" id="0" size="1" type="qmregion">
-					<E_total>-5252.662162</E_total>
-				</region>
-				<region Tot_charge="0.000000e+00" id="1" size="96" type="polarregion">
-					<E_static>-28.985643</E_static>
-					<E_polar>-9.084961</E_polar>
-					<E_total>-38.070605</E_total>
-				</region>
-			</regions>
-			<E_tot>-5290.732767</E_tot>
-			<Compute_Time>45</Compute_Time>
-			<Total_Charge>-32.000000</Total_Charge>
-			<Iterations>5</Iterations>
-		</output>
+		<status>ASSIGNED</status>
+		<host>pop-os:99829</host>
+		<time>14:26:41</time>
 	</job>
 	<job>
 		<id>1</id>
@@ -41,30 +25,46 @@
 				<qmregion>
 					<id>0</id>
 					<state>s1</state>
-					<segments>0:s1</segments>
+					<segments>0:n</segments>
 				</qmregion>
 			</regions>
 		</input>
-		<status>COMPLETE</status>
-		<host>pop-os:91903</host>
-		<time>12:47:55</time>
-		<output>
+		<status>ASSIGNED</status>
+		<host>pop-os:99829</host>
+		<time>14:26:41</time>
+	</job>
+	<job>
+		<id>2</id>
+		<tag>ACETONE_0:e</tag>
+		<input>
+			<site_energies>0:e</site_energies>
 			<regions>
-				<region Tot_charge="0.000000e+00" id="0" size="1" type="qmregion">
-					<E_total>-5248.207421</E_total>
-					<Initial_State>s1</Initial_State>
-					<Final_State>s1</Final_State>
-				</region>
-				<region Tot_charge="0.000000e+00" id="1" size="96" type="polarregion">
-					<E_static>-28.985643</E_static>
-					<E_polar>-9.162202</E_polar>
-					<E_total>-38.147846</E_total>
-				</region>
+				<qmregion>
+					<id>0</id>
+					<state>e</state>
+					<segments>0:e</segments>
+				</qmregion>
 			</regions>
-			<E_tot>-5286.355267</E_tot>
-			<Compute_Time>84</Compute_Time>
-			<Total_Charge>0.000000</Total_Charge>
-			<Iterations>4</Iterations>
-		</output>
+		</input>
+		<status>ASSIGNED</status>
+		<host>pop-os:99829</host>
+		<time>14:26:41</time>
+	</job>
+	<job>
+		<id>3</id>
+		<tag>ACETONE_0:h</tag>
+		<input>
+			<site_energies>0:h</site_energies>
+			<regions>
+				<qmregion>
+					<id>0</id>
+					<state>h</state>
+					<segments>0:h</segments>
+				</qmregion>
+			</regions>
+		</input>
+		<status>ASSIGNED</status>
+		<host>pop-os:99829</host>
+		<time>14:26:41</time>
 	</job>
 </jobs>

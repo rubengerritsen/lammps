@@ -7,6 +7,8 @@
         <segment>
           <name>ACETONE</name>
           <qmcoords_n>DFT_ORCA/acetone/acetoneOpt.xyz</qmcoords_n>
+          <qmcoords_e>DFT_ORCA/acetone/acetoneOpt.xyz</qmcoords_e>
+          <qmcoords_h>DFT_ORCA/acetone/acetoneOpt.xyz</qmcoords_h>
           <multipoles_n>MP_FILES/acetone_n_pol.mps</multipoles_n>
           <map2md>0</map2md>
           <fragments>

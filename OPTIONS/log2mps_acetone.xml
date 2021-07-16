@@ -1,0 +1,8 @@
+<options>
+	<log2mps help="Generates an mps-file (with polar-site definitions) from a QM log-file" label="tool:log2mps">
+		<dftpackage choices="orca" default="orca" help="QM package name">orca</dftpackage>
+		<input default="OPTIONAL" help="dftpackage log file to read from, otherwise use job_name">DFT_ORCA/acetone/chelpg.log</input>
+		<output default="OPTIONAL" help="MPs file with charges, if not given use job_name">MP_FILES/acetone_n.mps</output>
+	</log2mps>
+</options>
+

@@ -1,0 +1,9 @@
+<options>
+<log2mps help="Generates an mps-file (with polar-site definitions) from a QM log-file" label="tool:log2mps">
+	<job_name default="system" help="Input file name without extension, also used for intermediate files">system</job_name>
+	<dftpackage choices="orca" default="orca" help="QM package name">orca</dftpackage>
+	<input default="OPTIONAL" help="dftpackage log file to read from, otherwise use job_name"/>
+	<output default="OPTIONAL" help="MPs file with charges, if not given use job_name"/>
+</log2mps>
+</options>
+

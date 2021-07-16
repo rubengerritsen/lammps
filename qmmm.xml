@@ -3,9 +3,13 @@
   <qmmm help="Executes qmmm calculations for individual molecules and clusters" section="sec:qmmm">
     <print_regions_pdb>true</print_regions_pdb>
     <max_iterations>5</max_iterations>
-    <map_file>OPTIONS/mapping.xml</map_file>
+    <map_file>mapping.xml</map_file>
     <job_file>qmmm_jobs.xml</job_file>
-    <io_states default="n e h" help="states to write jobs for and which to parse from jobfile">n s1</io_states>
+    <io_jobfile help="options to write a jobfile">
+      <states default="n e h" help="states to write jobs for and which to parse from jobfile">n s1 e h</states>
+      <segments>0</segments>
+      <use_gs_for_ex help="If true uses the ground state geometry for excited states" default="false">true</use_gs_for_ex>
+    </io_jobfile>
     <regions>
       <qmregion>
         <id>0</id>
