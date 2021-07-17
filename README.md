@@ -22,7 +22,7 @@ xtp_tools -e molpol -o OPTIONS/molpol_water.xml
 
 ### Create the state file from the LAMMPS topology
 ```bash
-xtp_map -t system.data -c traj1.dump -s OPTIONS/mapping.xml -f state.hdf5
+xtp_map -t LAMMPS/system.data -c LAMMPS/traj1.dump -s OPTIONS/mapping.xml -f state.hdf5
 ```
 
 ### Run Map Checker
