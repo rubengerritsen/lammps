@@ -16,8 +16,7 @@
         <state help="qmstate to calculate i.e. n or s1">jobfile</state>
         <segments help="which segments to include in this region and which geometry they have">0:n</segments>
         <dftpackage help="Defaults for the Quantum Mechanics packages">
-          <name help="QM package to use" default="xtp" choices="xtp,orca">orca</name>
-          <executable>/opt/orca-4.2.1/orca</executable>
+          <name help="QM package to use" default="xtp" choices="xtp,orca">xtp</name>
           <basisset help="Basis set for MOs" default="def2-tzvp">def2-tzvp</basisset>
           <auxbasisset help="Auxiliary basis set for RI" default="aux-def2-tzvp">aux-def2-tzvp</auxbasisset>
           <functional default="XC_HYB_GGA_XC_PBEH">XC_HYB_GGA_XC_PBEH</functional>
