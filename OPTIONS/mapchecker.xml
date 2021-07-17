@@ -3,7 +3,7 @@
   <mapchecker help="Outputs .pdb files for segments, qmmolecules and classical segments to check the mapping" section="sec:mapchecker">
     <qm_states help="qmstates states to check" default="n">n</qm_states>
     <mp_states help="multipole states to check" default="e h"></mp_states>
-    <map_file help="xml file with segment definition" default="mapping.xml">mapping.xml</map_file>
+    <map_file help="xml file with segment definition" default="mapping.xml">OPTIONS/mapping.xml</map_file>
     <md_pdbfile default="md_segments.pdb" help="PDB file with the MD calculation">md_segments.pdb</md_pdbfile>
     <qm_pdbfile default="qm_segments.pdb" help="PDB file with the QM calculation">qm_segments.pdb</qm_pdbfile>
     <mp_pdbfile default="mp_segments.pdb" help="PDB file with the MP segments">mp_segments.pdb</mp_pdbfile>
