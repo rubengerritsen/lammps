@@ -6,7 +6,7 @@
     <map_file>OPTIONS/mapping.xml</map_file>
     <job_file>qmmm_jobs.xml</job_file>
     <io_jobfile help="options to write a jobfile">
-      <states default="n e h" help="states to write jobs for and which to parse from jobfile">n s1</states>
+      <states default="n e h" help="states to write jobs for and which to parse from jobfile">n</states>
       <segments>0</segments>
       <use_gs_for_ex help="If true uses the ground state geometry for excited states" default="false">true</use_gs_for_ex>
     </io_jobfile>

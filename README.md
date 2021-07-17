@@ -1,10 +1,13 @@
-# QMMM Calculations
+# QMMM Calculations with VOTCA and LAMMPS
+The basic input files for this tutorial where calculated with the ORCA dft package. In the `DFT_ORCA` folder are the results and the input files that generated them, a short description of the process can be found in `AUXILIARY/ORCA_dft_calculations.md`.
+
+The MD trajectory was generated with LAMMPS, the relevant data can be found in the `LAMMPS` directory.
 # 0. Set the VOTCA environment variables
 ```bash
 source VOTCARC.bash
 ```
 # 1. Convert CHELPG to MPS (multipole) files
-
+The MPS files are stored in the `MP_FILES` directory.
 ```bash
 cd MP_FILES
 xtp_tools -e log2mps -o OPTIONS/log2mps_acetone.xml
@@ -37,7 +40,8 @@ xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "write"
 ```
 ### Perform the QMMM jobs
 ```bash
-xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "run"
+xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "run" -t <nrOfProcesses> -x <threadsPerProcess>
+xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "run" -x 6
 ```
 
 ### Load the results in the state file
