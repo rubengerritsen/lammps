@@ -1,6 +1,6 @@
-# Tutorial Setup
+# How to setup Docker for usage with Jupyter
 
-## Setting up Docker
+## Installing Docker
 For this tutorial we will use the containerized version of VOTCA. It is provided as a docker container.
 
 To install docker
@@ -17,7 +17,7 @@ sudo docker pull votca/votca
 ```
 
 ## Setting up Jupyter
-For the tutorial we will use a jupyter notebook. To start the docker container
+If you want to use a jupyter notebook inside the container we need some special options. To start the docker container
 
 ```bash
 sudo docker run -it -p 8888:8888 votca/votca /bin/bash
@@ -36,7 +36,7 @@ pip3 install jupyter
 Navigate to the tutorial
 
 ```bash
-cd xtp-tutorials/LAMMPS/Thiophene
+cd xtp-tutorials/<pathToTutorial>
 ```
 
 Load the VOTCA environment variables
@@ -45,7 +45,7 @@ Load the VOTCA environment variables
 source VOTCARC.bash
 ```
 
-and then we start jupyter. We need to pass some special options to make it work with the docker container and the host browser
+and start jupyter. We need to pass some special options to make it work with the docker container and the host browser
 
 ```bash
 jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
@@ -53,4 +53,4 @@ jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 
 Now navigate to [http://localhost:8888/tree](http://localhost:8888/tree) in your browser. Jupyter will ask you for a token, you can copy the token from one of the urls that appeared in your terminal, i.e. the part after `?token=`.
 
-Now that we have setup jupyter correctly open the `QMMM_LAMMPS.ipynb` notebook.
+Now that we have setup jupyter correctly we can open the jupyter notebooks.
