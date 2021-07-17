@@ -12,7 +12,25 @@
 				</qmregion>
 			</regions>
 		</input>
-		<status>AVAILABLE</status>
+		<status>COMPLETE</status>
+		<host>baurgcube3:217329</host>
+		<time>14:17:08</time>
+		<output>
+			<regions>
+				<region Tot_charge="-3.200000e+01" id="0" size="1" type="qmregion">
+					<E_total>-5252.608283</E_total>
+				</region>
+				<region Tot_charge="0.000000e+00" id="1" size="95" type="polarregion">
+					<E_static>-28.991429</E_static>
+					<E_polar>-8.785888</E_polar>
+					<E_total>-37.777318</E_total>
+				</region>
+			</regions>
+			<E_tot>-5290.385600</E_tot>
+			<Compute_Time>29</Compute_Time>
+			<Total_Charge>-32.000000</Total_Charge>
+			<Iterations>5</Iterations>
+		</output>
 	</job>
 	<job>
 		<id>1</id>
@@ -27,36 +45,26 @@
 				</qmregion>
 			</regions>
 		</input>
-		<status>AVAILABLE</status>
-	</job>
-	<job>
-		<id>2</id>
-		<tag>ACETONE_0:e</tag>
-		<input>
-			<site_energies>0:e</site_energies>
+		<status>COMPLETE</status>
+		<host>baurgcube3:217329</host>
+		<time>14:17:57</time>
+		<output>
 			<regions>
-				<qmregion>
-					<id>0</id>
-					<state>e</state>
-					<segments>0:e</segments>
-				</qmregion>
+				<region Tot_charge="0.000000e+00" id="0" size="1" type="qmregion">
+					<E_total>-5248.152834</E_total>
+					<Initial_State>s1</Initial_State>
+					<Final_State>s1</Final_State>
+				</region>
+				<region Tot_charge="0.000000e+00" id="1" size="95" type="polarregion">
+					<E_static>-28.991429</E_static>
+					<E_polar>-8.850919</E_polar>
+					<E_total>-37.842348</E_total>
+				</region>
 			</regions>
-		</input>
-		<status>AVAILABLE</status>
-	</job>
-	<job>
-		<id>3</id>
-		<tag>ACETONE_0:h</tag>
-		<input>
-			<site_energies>0:h</site_energies>
-			<regions>
-				<qmregion>
-					<id>0</id>
-					<state>h</state>
-					<segments>0:h</segments>
-				</qmregion>
-			</regions>
-		</input>
-		<status>AVAILABLE</status>
+			<E_tot>-5285.995182</E_tot>
+			<Compute_Time>49</Compute_Time>
+			<Total_Charge>0.000000</Total_Charge>
+			<Iterations>5</Iterations>
+		</output>
 	</job>
 </jobs>
