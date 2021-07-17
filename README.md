@@ -2,6 +2,24 @@
 The basic input files for this tutorial where calculated with the ORCA dft package. In the `DFT_ORCA` folder are the results and the input files that generated them, a short description of the process can be found in `AUXILIARY/ORCA_dft_calculations.md`.
 
 The MD trajectory was generated with LAMMPS, the relevant data can be found in the `LAMMPS` directory.
+
+# -1. Starting Docker and Obtaining the Tutorial
+Docker and the VOTCA image should already be installed on your system, if that is not the case (on Ubuntu)
+```bash
+sudo apt install docker.io
+docker pull votca/votca
+```
+
+## Setting up this tutorial
+Start docker
+```bash
+docker run -it votca/votca /bin/bash
+```
+And clone the necessary tutorial files
+```
+git clone 
+```
+
 # 0. Set the VOTCA environment variables
 ```bash
 source VOTCARC.bash
