@@ -1,56 +1,120 @@
-# Tutorial Setup
-
-## Setting up Docker
-For this tutorial we will use the containerized version of VOTCA. It is provided as a docker container.
-
-To install docker
-
+# QMMM Calculations
+Source votca
 ```bash
-sudo apt install docker.io
+setupVotcaSoft
 ```
 
-Note that this is no longer the recommended way to install Docker, but it is the quickest, for the up to date install instructions see [Docker's website](https://docs.docker.com/engine/install/).
+## Create Input Files with ORCA
+We determine the groundstate geometry with orca
 
-## Getting the Docker image
-```bash
-sudo docker pull votca/votca
+```text 
+!PBE0 def2-TZVP OPT
+
+*xyz 0 1
+O  0.006  -0.848   0.086
+C -0.873  -1.710  -0.085  
+C -1.406  -2.648   0.972 
+C -1.572  -1.974  -1.412 
+H -1.093  -2.515   1.991  
+H -2.463  -2.735   1.032 
+H -1.069  -3.613   0.608 
+H -0.905  -1.801  -2.305 
+H -2.474  -1.426  -1.590 
+H -1.800  -3.000  -1.522 
+*
+
+%pal
+ nprocs 26
+end
 ```
 
-## Setting up Jupyter
-For the tutorial we will use a jupyter notebook. To start the docker container
+### Next use CHELPG to do a charge fit and calculate the molecular polarizability
+```text
+!PBE0 def2-TZVP CHELPG
 
-```bash
-sudo docker run -it -p 8888:8888 votca/votca /bin/bash
+*xyzfile 0 1 acetoneOpt.xyz
+
+%pal
+ nprocs 26
+end
+
+%elprop
+Polar 1
+end
 ```
 
-* `-it` Allocate a pseudo-tty and keep STDIN open even if not attached
-* `-p` pass the 8888 port of the docker container to the 8888 port of the host, needed to use jupyter in your browser.
-
-Next we need to install `jupyter` in the docker container
-
-```bash
-pip3 install jupyter
-```
-
-## Starting the tutorial
-Navigate to the tutorial
+### Do the same for water
+See the input files in `DFT_ORCA`.
+## Convert CHELPG to MPS (multipole) files
 
 ```bash
-cd xtp-tutorials/LAMMPS/Thiophene
+cd MP_FILES
+xtp_tools -e log2mps -o OPTIONS/log2mps_acetone.xml
+xtp_tools -e log2mps -o OPTIONS/log2mps_water.xml
 ```
 
-Load the VOTCA environment variables
+### Scale the polarizability
 
 ```bash
-source VOTCARC.bash
+xtp_tools -e molpol -o OPTIONS/molpol_acetone.xml
+xtp_tools -e molpol -o OPTIONS/molpol_water.xml
 ```
 
-and then we start jupyter. We need to pass some special options to make it work with the docker container and the host browser
+# Setup and Start the QMMM calc
+
+### Create the state file from the LAMMPS topology
+```bash
+xtp_map -v -t system.data -c traj1.dump -s mapping.xml -f state.hdf5
+```
+
+### Run Map Checker
+```bash
+xtp_run -e mapchecker -o mapchecker.xml -f state.hdf5
+```
+
+### Create QMMM jobs
+```bash
+xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "write"
+```
+
+### Delete all unnecessary jobs
+We are only intersted in a QMMM calculation for acetone, which is the first job, we can delete the rest from the `qmmm_jobs.xml` file. What remains
+
+```xml
+<jobs>
+	<job>
+		<id>0</id>
+		<tag>ACETONE_0:n</tag>
+		<input>
+			<site_energies>0:n</site_energies>
+			<regions>
+				<region>
+					<id>0</id>
+					<state>n</state>
+					<segments>0:n</segments>
+				</region>
+			</regions>
+		</input>
+		<status>AVAILABLE</status>
+	</job>
+</jobs>
+```
+
+### Perform QMMM calc
+```bash
+xtp_parallel -e qmmm -o qmmm.xml -f state.hdf5 -j "run"
+```
+
+## Make a picture
+
+requires some python packages which can be pip installed:
+
+* numpy
+* matplotlib
+* tabulate
+
+then run
 
 ```bash
-jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+python3 spectrumPlot.py
 ```
-
-Now navigate to [http://localhost:8888/tree](http://localhost:8888/tree) in your browser. Jupyter will ask you for a token, you can copy the token from one of the urls that appeared in your terminal, i.e. the part after `?token=`.
-
-Now that we have setup jupyter correctly open the `QMMM_LAMMPS.ipynb` notebook.
