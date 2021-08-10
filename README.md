@@ -17,7 +17,8 @@ docker run -it votca/votca /bin/bash
 ```
 And clone the necessary tutorial files
 ```
-git clone 
+git clone https://github.com/rubengerritsen/lammps
+cd lammps
 ```
 
 # 0. Set the VOTCA environment variables
