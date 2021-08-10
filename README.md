@@ -27,7 +27,6 @@ source VOTCARC.bash
 # 1. Convert CHELPG to MPS (multipole) files
 The MPS files are stored in the `MP_FILES` directory.
 ```bash
-cd MP_FILES
 xtp_tools -e log2mps -o OPTIONS/log2mps_acetone.xml
 xtp_tools -e log2mps -o OPTIONS/log2mps_water.xml
 ```
