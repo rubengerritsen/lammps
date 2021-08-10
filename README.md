@@ -4,10 +4,11 @@ The basic input files for this tutorial where calculated with the ORCA dft packa
 The MD trajectory was generated with LAMMPS, the relevant data can be found in the `LAMMPS` directory.
 
 # -1. Starting Docker and Obtaining the Tutorial
-Docker and the VOTCA image should already be installed on your system, if that is not the case install Docker and pull the VOTCA image.
+Docker is already installed in the Virtual machine of the LAMMPS workshop. To pull the VOTCA image (~1.3GB). 
 ```bash
 docker pull votca/votca
 ```
+If you don't use the workshops image, install Docker and then pull the image.
 
 ## Setting up this tutorial
 Start docker
